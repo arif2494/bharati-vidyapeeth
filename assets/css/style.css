@@ -1,0 +1,355 @@
+/****************************************************
+		Project Name: BHARATI VIDYAPEETH;
+		Project Date: 30-11-2021;
+		Developer: Ariful Islam;
+	*********************************
+	---------------------------------
+	Project Section
+	---------------------------------
+	1.Topbar
+	2.Header
+	3.Video
+	4.About US
+	6.Fatcs
+	7.Recent News
+	9.CTA
+	10.Footer
+*****************************************************
+*****************************************************/
+
+/****************************************************
+	Bass CSS Start
+*****************************************************/
+*,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/****************************************************
+	Bass CSS End
+*****************************************************/
+/****************************************************
+	Common CSS Start
+*****************************************************/
+
+.btn {
+  border-radius: 0px !important;
+}
+.card {
+  border-radius: 0px !important;
+}
+.f-color {
+  color: #7298fe;
+}
+.s-color {
+  color: #feffff;
+}
+.t-color {
+  color: #1e1d1d;
+}
+.f-bg {
+  background: #7298fe;
+}
+.s-bg {
+  background: #feffff;
+}
+.t-bg {
+  background: #1e1d1d;
+}
+.fw-b {
+  font-weight: bold;
+}
+.number-family {
+  font-family: "Open Sans", sans-serif !important;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.fw900 {
+  font-weight: 900;
+}
+/****************************************************
+	Common CSS End
+*****************************************************/
+/****************************************************
+	Topbar CSS Start
+*****************************************************/
+.top-hover:hover {
+  color: #313131;
+}
+.topbar {
+  height: 49px;
+  line-height: 49px;
+}
+.left-top li {
+  padding-left: 10px;
+}
+.left-top li:first-child {
+  padding-left: 0px !important;
+}
+.right-top li:last-child {
+  padding-left: 10px;
+}
+.line-after::after {
+  content: "|";
+  color: white;
+  padding-left: 10px;
+}
+/****************************************************
+	Topbar CSS End
+*****************************************************/
+/****************************************************
+	Header CSS Start
+*****************************************************/
+header.nav-changed {
+  width: 100%;
+  position: fixed;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-active {
+  background: #7298fe !important;
+  box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-active a {
+  color: #fff !important;
+}
+.dropdown-menu a {
+  color: #303437 !important;
+}
+.logo-width {
+  width: 50px;
+}
+.brd {
+  background: #7298fe !important;
+  border-radius: 50% !important;
+}
+.nav-link {
+  font-weight: 700;
+}
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 3333;
+}
+.btn-f {
+  background: #7298fe !important;
+  color: white;
+}
+.btn-f:hover {
+  border: 1px solid #7298fe;
+  background: #fff !important;
+}
+.btn-f-o {
+  border: 1px solid #7298fe;
+  background-color: white;
+}
+.btn-f-o:hover {
+  background: #7298fe !important;
+  color: white;
+}
+.position-rel {
+  position: relative;
+}
+.position-abs {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+}
+.admission-btn {
+  background: #4c56e4 !important;
+  color: white;
+}
+.admission-btn:hover {
+  color: #313131;
+}
+.nav-ac {
+  color: #7298fe !important;
+}
+/****************************************************
+	Header CSS End
+*****************************************************/
+/****************************************************
+Home Video CSS Start
+*****************************************************/
+#bgvid {
+  object-fit: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+.viewport-header {
+  background-color: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+  color: white;
+  position: absolute;
+  top: 125px;
+  left: 40;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-text {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+/****************************************************
+Home Video CSS End
+*****************************************************/
+/****************************************************
+	About US CSS Start
+*****************************************************/
+#about-us {
+  overflow-x: hidden;
+}
+.acady {
+  background: url(../img/acadimy.jpg);
+  height: 300px;
+  width: 780px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: relative;
+  right: -10%;
+  top: 10;
+}
+.princ {
+  max-height: 290px;
+  margin-left: -50px;
+  margin-top: 50px;
+  width: 250px;
+}
+.fs-30 {
+  font-size: 35px !important;
+}
+.fw900 {
+  font-weight: 900;
+}
+/****************************************************
+	About US CSS End
+*****************************************************/
+
+/****************************************************
+	Fatcs CSS Start
+*****************************************************/
+.facts {
+  background: url(../img/fact.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.contact-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.contact-btn:hover {
+  background: #fff;
+  border: 1px solid #7298fe;
+  color: #7298fe;
+}
+/****************************************************
+	Fatcs CSS End
+*****************************************************/
+/****************************************************
+	Recent News CSS Start
+*****************************************************/
+
+/****************************************************
+	Recent News CSS End
+*****************************************************/
+/****************************************************
+	Test CSS Start
+*****************************************************/
+.testmonial {
+  background: url(../img/testimonial.png);
+}
+
+.recent-img {
+  max-width: 100px;
+  margin: 0px auto;
+  margin-bottom: -45px;
+}
+.recent-card {
+  border: 20px solid transparent;
+  border-image: url(../img/border.png) 55% round;
+  border-top: none;
+}
+/****************************************************
+	Test CSS End
+*****************************************************/
+/****************************************************
+	CTA CSS Start
+*****************************************************/
+.email {
+  width: 25%;
+  height: 51px;
+  border: 1px solid #fff;
+  padding: 5px;
+  background: transparent;
+}
+.email:focus {
+  border: 1px solid #fff;
+  outline: none;
+}
+::placeholder {
+  color: #fff;
+}
+.test_btn {
+  background: #fff;
+  color: #000;
+  padding: 11px;
+  border: 3px solid #fff;
+  margin-top: -2px;
+}
+/****************************************************
+	CTA CSS End
+*****************************************************/
+/****************************************************
+	Footer CSS Start
+*****************************************************/
+.left-link li a {
+  color: #fff;
+  line-height: 32px;
+}
+.left-link li a:hover {
+  color: #7298fe;
+}
+.line {
+  border-top: 1px solid #7298fe;
+}
+.footer-icon li {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #7298fe;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.footer-icon li a {
+  padding: 10px;
+  color: #fff;
+}
+.footer-icon li a:hover {
+  color: #7298fe;
+}
+/****************************************************
+	Footer CSS End
+*****************************************************/
