@@ -24,7 +24,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -81,12 +81,23 @@ ul {
 .fw900 {
   font-weight: 900;
 }
+.margin-container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.padding-container {
+  padding-left: 80px;
+  padding-right: 80px;
+}
 /****************************************************
 	Common CSS End
 *****************************************************/
 /****************************************************
 	Topbar CSS Start
 *****************************************************/
+.top-bg {
+  background-color: #3fa1a1;
+}
 .top-hover:hover {
   color: #313131;
 }
@@ -170,11 +181,12 @@ header.nav-changed {
   left: 55%;
 }
 .admission-btn {
-  background: #4c56e4 !important;
+  background: #6c757d !important;
   color: white;
 }
 .admission-btn:hover {
-  color: #313131;
+  color: #fff;
+  background-color: #545b62 !important;
 }
 .nav-ac {
   color: #7298fe !important;
@@ -268,11 +280,24 @@ Home Video CSS End
 	Fatcs CSS End
 *****************************************************/
 /****************************************************
-	Recent News CSS Start
+	Image Gallery News CSS Start
 *****************************************************/
-
+hr {
+  margin: 20px 0;
+}
+.masoItem {
+  position: absolute;
+  text-align: center;
+  font-size: 2em;
+  font-weight: white;
+  color: white;
+  line-height: 1.5em;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
 /****************************************************
-	Recent News CSS End
+	Image Gallery News CSS End
 *****************************************************/
 /****************************************************
 	Test CSS Start
@@ -288,7 +313,7 @@ Home Video CSS End
 }
 .recent-card {
   border: 20px solid transparent;
-  border-image: url(../img/border.png) 55% round;
+  border-image: url(../img/border1.png) 55% round;
   border-top: none;
 }
 /****************************************************
