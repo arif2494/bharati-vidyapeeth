@@ -36,10 +36,26 @@
     height: 427px;
   }
 }
+@media screen and (min-width: 768px) {
+  .card-left-img {
+    height: 100%;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .massoImg {
     width: 100%;
   }
 }
+@media screen and (max-width: 992px) {
+  .margin-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .padding-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 /* 992-1199/451 */

@@ -52,10 +52,3 @@ $(document).ready(function () {
     },
   });
 });
-
-let masonry2 = new MiniMasonry({
-  container: document.querySelector(".container_2"),
-  surroundingGutter: false,
-  gutterX: 40,
-  gutterY: 10,
-});

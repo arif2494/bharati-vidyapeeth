@@ -182,6 +182,7 @@ header.nav-changed {
 }
 .admission-btn {
   background: #6c757d !important;
+  border-radius: 15px !important;
   color: white;
 }
 .admission-btn:hover {
@@ -256,6 +257,24 @@ Home Video CSS End
 	About US CSS End
 *****************************************************/
 
+/* News Start */
+.card-left-img {
+  width: 100%;
+}
+/* News End */
+/****************************************************
+	Notices Start
+*****************************************************/
+.boro-text {
+  font-size: 16px;
+}
+.choto-text {
+  font-size: 12px;
+}
+/****************************************************
+	Notices End
+*****************************************************/
+
 /****************************************************
 	Fatcs CSS Start
 *****************************************************/
@@ -286,7 +305,6 @@ hr {
   margin: 20px 0;
 }
 .masoItem {
-  position: absolute;
   text-align: center;
   font-size: 2em;
   font-weight: white;
