@@ -271,6 +271,16 @@ Home Video CSS End
 .choto-text {
   font-size: 12px;
 }
+.marquee-rel {
+  position: relative;
+}
+.marque-more {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  padding: 5px;
+  padding-bottom: 0;
+}
 /****************************************************
 	Notices End
 *****************************************************/
